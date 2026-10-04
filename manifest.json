@@ -1,0 +1,18 @@
+{
+  "name": "ScanCode - Leitor e Gerador de QR & Barcode",
+  "short_name": "ScanCode",
+  "description": "Aplicativo PWA para leitura e geração de QR Codes e Códigos de Barras sem dependência de servidor.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f8fafc",
+  "theme_color": "#2563eb",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "assets/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
