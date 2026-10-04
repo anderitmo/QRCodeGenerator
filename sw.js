@@ -1,4 +1,4 @@
-const CACHE_NAME = 'scancode-v1';
+const CACHE_NAME = 'scancode-v2';
 const ASSETS_TO_CACHE = [
   './',
   './index.html',
@@ -11,7 +11,7 @@ const ASSETS_TO_CACHE = [
   './assets/icon.svg',
   'https://cdn.jsdelivr.net/npm/html5-qrcode@2.3.8/html5-qrcode.min.js',
   'https://cdn.jsdelivr.net/npm/jsbarcode@3.11.5/dist/JsBarcode.all.min.js',
-  'https://cdn.jsdelivr.net/npm/qrcode@1.5.3/build/qrcode.min.js'
+  'https://cdn.jsdelivr.net/npm/qrcode@1.5.1/build/qrcode.min.js'
 ];
 
 self.addEventListener('install', (event) => {
